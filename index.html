@@ -146,7 +146,7 @@ $("#add-train").on("click", function(event) {
     // Log everything that's coming out of Snapshot
     console.log(childSnapshot.val().name);
     console.log(childSnapshot.val().dest);
-    console.log(childSnapshot.val().first);
+    console.log("First train: " + childSnapshot.val().first);
     console.log(childSnapshot.val().freq);
     
     //for (next < (now + freq); (next = first + freq);)
